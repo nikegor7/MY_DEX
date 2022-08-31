@@ -35,7 +35,7 @@ contract Factory2 is PairERC20{
         require(tokenA != address(0) || tokenA != address(0), "invalid token address");
         
         require( pairs[tokenA][tokenA] == address(0),"Pair already exists" );
-        //IPairERC20 token = IPairERC20(address(this));
+        
         NewPair pair = new NewPair(tokenA, tokenB, address(this));
         pairs[tokenA][tokenB]= address(pair);
         return address(pair);
