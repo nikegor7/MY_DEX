@@ -23,7 +23,8 @@ There are 3 main smart contracts in this project:<br>
 &nbsp&nbsp&nbsp&nbsp•Return the address of these pairs</p>
 The factory allows you to create several exchangers that will work together and charge tokens of this factory to users for providing liquidity.<br>
 
-<h4><a href="https://github.com/nikegor7/MY_DEX/blob/main/contracts/Factory2.sol"> Token</a></h4>
+<h4><a href="https://github.com/nikegor7/MY_DEX/blob/main/contracts/Token/Token.sol"> Token</a></h4>
+> Token</a></h4>
 
 Token contract allows to create token with name, symbol, and initial supply.<br>
 This project consists of two types of token. One is for liqudity and swap. Another as reward for staking.<br>
