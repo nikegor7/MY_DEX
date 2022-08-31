@@ -260,24 +260,4 @@ contract NewPair is ERC20, Math {
         stakedAddress[msg.sender] = 0;
     }
 
-    /*
-
-    function that change state before transfer
-
-    */
-
-    // function _beforeTokenTransfer(
-    //     address from,
-    //     address to,
-    //     uint256
-    // ) internal virtual {
-    //     _updateStateForStaking(from);
-    //     if (balanceOf(to) == 0) {
-    //         blockTimeStamp[to] = block.timestamp;
-    //     } else {
-    //         _updateStateForStaking(to);
-    //     }
-    // }
-
-
 }
