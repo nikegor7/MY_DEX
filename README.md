@@ -9,8 +9,8 @@ It consists of :<br>
 
 <h2>Structural part</h2>
 There are 2 main smart contracts in this project:<br>
-•<a href=""> NewPair.sol </a>
-• Factory2.sol
+•<a href="https://github.com/nikegor7/MY_DEX/blob/main/contracts/NewPair.sol"> NewPair </a>
+•<a href="https://github.com/nikegor7/MY_DEX/blob/main/contracts/Factory2.sol"> Factory2</a>
 
 
 
