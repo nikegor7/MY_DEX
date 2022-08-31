@@ -9,10 +9,21 @@ It consists of :<br>
 
 <h2>Structural part</h2>
 There are 2 main smart contracts in this project:<br>
-•<a href="https://github.com/nikegor7/MY_DEX/blob/main/contracts/NewPair.sol"> NewPair </a>
-•<a href="https://github.com/nikegor7/MY_DEX/blob/main/contracts/Factory2.sol"> Factory2</a>
+<h4><a href="https://github.com/nikegor7/MY_DEX/blob/main/contracts/NewPair.sol"> NewPair </a></h4>
 
+<p>To work with this contract, you need to create a factory.<br> It creates a pair of tokens with which you can use the following functions:<br>
+  &nbsp&nbsp&nbsp&nbsp•Add/Remove liquidity.<br>
+  &nbsp&nbsp&nbsp&nbsp•Swap tokens for tokens.<br>
+  &nbsp&nbsp&nbsp&nbsp•Receive staking tokens of factory as reward for providing liquidity.<br></p>
 
+<h4><a href="https://github.com/nikegor7/MY_DEX/blob/main/contracts/Factory2.sol"> Factory2</a></h4>
+
+<p>Еhis contract allows you:<br>
+&nbsp&nbsp&nbsp&nbsp•Create an exchanger with two different pairs<br>
+&nbsp&nbsp&nbsp&nbsp•Return the address of these pairs</p>
+The factory allows you to create several exchangers that will work together and charge tokens of this factory to users for providing liquidity.<br><br>
+
+Below is the index of Hardhat coverage.
 
 
 
