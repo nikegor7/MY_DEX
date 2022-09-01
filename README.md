@@ -1,7 +1,12 @@
 # Sample DEX V2
 
 This project is a simple representation of DEX v2. This project allows you to use your crypto assets for the exchange.
-
+```mermaid
+graph TD;
+    Factory-->NewPair
+    TokenStake-->Factory;
+    NewPair-->Factory
+```
 It consists of :<br>
 • Smart contracts <br>
 • Tests<br>
@@ -32,3 +37,4 @@ First one uses ERC20 contract and is used in NewPair. Second one uses PairERC20 
 
 Below is the index of Hardhat coverage.
 ![image](https://user-images.githubusercontent.com/105046215/187793045-c8e4a725-41a3-4035-8ddf-6f746a6724e3.png)
+
