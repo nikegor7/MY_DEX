@@ -296,7 +296,7 @@ describe("DEX/AMM tests", function(){
 
             await pair.removeLiquidity(toWei(200));
             expect(await pair.balanceOf(owner.address)).to.equal(toWei(100));
-            expect((await pair._updateAmountForStaking(owner.address)).toString()).to.equal("10000115740740740740");
+            expect((await pair._updateAmountForStaking(owner.address)).toString()).to.equal("3000034722222222222");
         });
 
         it("Update state and amount when transfer LP tokens", async()=>{
@@ -306,7 +306,7 @@ describe("DEX/AMM tests", function(){
             await expect(()=> pair.transferTo(user.address, toWei(200)))
             .to.changeTokenBalances(pair,[owner.address, user.address],[toWei(-200),toWei(200)]);
 
-            expect((await pair._updateAmountForStaking(owner.address)).toString()).to.equal("10000231481481481481");
+            expect((await pair._updateAmountForStaking(owner.address)).toString()).to.equal("3000034722222222222");
         })
         
     });
