@@ -53,7 +53,7 @@ Below is the index of Hardhat coverage.
         {
           "type": "Point",
           "properties": {"prop0": "value0"},
-          "coordinates": [-14230, 47040]
+          "coordinates": [-14227.13, 47035.35]
         }
       ]
     }
